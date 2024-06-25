@@ -1,0 +1,23 @@
+
+@use 'reset';
+@use 'products';
+@use 'h4';
+
+$corPrincipal:blue;
+
+$corSecundaria:#111;
+$corEscrita:#fff;
+body{
+    background-color:$corPrincipal;
+
+}
+
+header{
+    background-color: $corSecundaria;
+}
+.menu{
+    color: $corEscrita;
+}
+.container h2, h4, p{
+  color: $corEscrita;
+}
